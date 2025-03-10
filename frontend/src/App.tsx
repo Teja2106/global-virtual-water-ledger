@@ -1,9 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Dashboard from './pages/Dashboard';
-import Transactions from './pages/Transactions';
-import Analytics from './pages/Analytics';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Dashboard from "./pages/Dashboard";
+import Transactions from "./pages/Transactions";
+import Analytics from "./pages/Analytics";
 
 function App() {
   return (
